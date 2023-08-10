@@ -1,0 +1,19 @@
+.aboutimage {
+  width: 80%;
+  background-size: cover;
+  opacity: 70%;
+  -background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg3.jpg?raw=true');
+  background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/lowres/about.jpg?raw=true');
+  transition: filter 1s ease-in;
+  filter: grayscale(100%);
+}
+
+.aboutimage:hover {
+  filter: none;
+}
+
+@media (max-width: 600px) {
+  .aboutimage {
+    display: none;
+  }
+}

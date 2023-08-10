@@ -1,0 +1,65 @@
+.page {
+  display: flex;
+  background-image: linear-gradient(to right, #f2f0ff, rgb(61, 61, 61));
+  height: 100%;
+}
+
+.galleryimage {
+  width: 50%;
+  background-size: cover;
+  opacity: 50%;
+  -background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg4.jpg?raw=true');
+  background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/lowres/gallery.jpg?raw=true');
+  transition: filter 1s ease-in;
+  filter: grayscale(100%);
+}
+
+.galleryimage:hover {
+  filter: none;
+}
+
+@media (max-width: 800px) {
+  .galleryimage {
+    display: none;
+  }
+}
+
+.vid {
+  max-width: 500px;
+  border-radius: 10px;
+  border: 4px solid #867f8d;
+  filter: grayscale(100%);
+  margin-bottom: 10px;
+}
+
+.vid:hover {
+  filter: none;
+}
+
+.galleryheader {
+  display: flex;
+  justify-content: center;
+}
+.vidcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  line-height: 5%;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yt {
+  background-color: rgb(252, 66, 66);
+  padding: 9px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+}
